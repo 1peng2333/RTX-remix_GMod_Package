@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "rtx/glassmat"
+	"$translucent" 1
+}

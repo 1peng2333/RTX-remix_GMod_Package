@@ -1,0 +1,5 @@
+shadercompile.exe
+shadercompile_dll.dll
+tier0.dll
+vstdlib.dll
+mysql_wrapper.dll

@@ -1,0 +1,162 @@
+#usda 1.0
+(
+    customLayerData = {
+        string lightspeed_game_name = "Garry's Mod"
+        string lightspeed_layer_type = "replacement"
+        dictionary lightspeed_mod_dependencies = {
+        }
+        string lightspeed_mod_name = "materialtool"
+        string lightspeed_mod_version = "1.0.0"
+    }
+    timeCodesPerSecond = 24
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "Looks"
+    {
+        over "mat_C8B5FA72B85EADC1"
+        {
+            over "Shader"
+            {
+                color3f inputs:diffuse_color_constant = (1, 0.99999, 0.99999) (
+                    customData = {
+                        float3 default = (0.2, 0.2, 0.2)
+                        dictionary range = {
+                            float3 max = (1, 1, 1)
+                            float3 min = (0, 0, 0)
+                        }
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo Color"
+                    doc = """The base albedo color.  (Used if no texture is specified)
+
+"""
+                    hidden = false
+                    renderType = "color"
+                )
+                asset inputs:diffuse_texture = @@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                color3f inputs:emissive_color_constant = (1, 0.99999, 0.99999) (
+                    customData = {
+                        float3 default = (1, 0.1, 0.1)
+                        dictionary range = {
+                            float3 max = (1, 1, 1)
+                            float3 min = (0, 0, 0)
+                        }
+                    }
+                    displayGroup = "Emission"
+                    displayName = "Emissive Color"
+                    doc = """The emissive color when no emissive color texture is specified.
+
+"""
+                    hidden = false
+                    renderType = "color"
+                )
+                float inputs:emissive_intensity = 5 (
+                    customData = {
+                        float default = 40
+                        dictionary range = {
+                            float max = 65504
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Emission"
+                    displayName = "Emissive Intensity"
+                    doc = """Intensity of the emission
+
+"""
+                    hidden = false
+                )
+                bool inputs:enable_emission = 1 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Emission"
+                    displayName = "Enable Emission"
+                    doc = """Enables the emission of light from the material
+
+"""
+                    hidden = false
+                )
+            }
+        }
+
+        over "mat_2442CBF890D41188"
+        {
+            over "Shader"
+            {
+                color3f inputs:diffuse_color_constant = (1, 0.99999, 0.99999) (
+                    customData = {
+                        float3 default = (0.2, 0.2, 0.2)
+                        dictionary range = {
+                            float3 max = (1, 1, 1)
+                            float3 min = (0, 0, 0)
+                        }
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo Color"
+                    doc = """The base albedo color.  (Used if no texture is specified)
+
+"""
+                    hidden = false
+                    renderType = "color"
+                )
+                asset inputs:diffuse_texture = @@ (
+                    customData = {
+                        asset default = @@
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Albedo/Opacity Map"
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                    hidden = false
+                    renderType = "texture_2d"
+                )
+                float inputs:metallic_constant = 1 (
+                    customData = {
+                        float default = 0
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Metallic Amount"
+                    doc = """How metallic is this material, 0 for not at all, 1 for fully metallic. (Used if no texture is specified).
+
+"""
+                    hidden = false
+                )
+                float inputs:reflection_roughness_constant = 0 (
+                    customData = {
+                        float default = 0.5
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Amount"
+                    doc = """Higher roughness values lead to more blurry reflections, use 0 for perfectly smooth.  (Used if no texture is specified).
+
+"""
+                    hidden = false
+                )
+            }
+        }
+    }
+}
+

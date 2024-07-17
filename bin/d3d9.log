@@ -1,0 +1,90 @@
+[12:47:09.569] info:  Found default config for: Source Engine
+[12:47:09.570] info:  Trying to open config file: h:\steamlibrary\steamapps\common\garrysmod_rtx\bin\.trex\bridge.conf
+[12:47:09.570] info:  Found user config file: h:\steamlibrary\steamapps\common\garrysmod_rtx\bin\.trex\bridge.conf
+[12:47:09.570] info:  Effective configuration:
+[12:47:09.570] info:    presentSemaphoreMaxFrames  = 1
+[12:47:09.570] info:    presentSemaphoreMaxFrames = 1
+[12:47:09.570] info:  ==================
+[12:47:09.571] info:  NVIDIA RTX Remix Bridge Client
+[12:47:09.571] info:  ==================
+[12:47:09.571] info:  Version: remix-0.5.0-rc1+1cc6a1c0
+[12:47:09.571] info:  Loaded d3d9.dll from H:\SteamLibrary\steamapps\common\GarrysMod_RTX\hl2.exe
+[12:47:09.572] warn:  Injected DirectInput8Create proc detected!
+[12:47:09.652] info:  DirectInput8 hook attached.
+[12:47:09.655] warn:  Injected DirectInputCreate proc detected!
+[12:47:09.668] info:  DirectInput hook attached.
+[12:47:09.669] info:  Initializing new shared memory object.
+[12:47:09.670] info:  Initializing new shared memory object.
+[12:47:09.671] info:  Initializing new shared memory object.
+[12:47:09.696] info:  Initializing new shared memory object.
+[12:47:09.717] info:  Launching server with GUID 355dc0c6-8638-4ecf-b1d5-779bae949913
+[12:47:09.783] info:  Process set as DPI aware
+[12:47:09.784] info:  Sending SYN command, waiting for ACK from server...
+[12:47:10.207] info:  Ack received! Handshake completed! Telling server to continue waiting for commands...
+[12:47:10.319] warn:  Unsupported DirectInput version: 5.10.
+[12:47:12.147] info:  Creating a thread-safe D3D9 device.
+[12:47:16.548] info:  Message channel UWM_REMIX_BRIDGE_REGISTER_THREADPROC_MSG handshake complete.
+[12:47:22.269] info:  Remix UI deactivated.
+[12:47:22.269] info:  Remix UI deactivated.
+[12:48:45.155] info:  Remix UI activated.
+[12:48:54.031] info:  Remix UI deactivated.
+[12:49:23.651] info:  Remix UI activated.
+[12:49:25.658] info:  Remix UI deactivated.
+[12:49:29.226] info:  Remix UI activated.
+[12:49:40.730] info:  Remix UI deactivated.
+[12:49:43.640] info:  Remix UI activated.
+[12:49:44.610] info:  Remix UI deactivated.
+[12:49:44.973] info:  Remix UI activated.
+[12:49:59.638] info:  Remix UI deactivated.
+[12:51:11.625] info:  Remix UI activated.
+[12:51:28.559] info:  Remix UI deactivated.
+[12:51:32.924] info:  Remix UI activated.
+[12:51:39.007] info:  Remix UI deactivated.
+[12:53:10.715] info:  Remix UI activated.
+[12:53:13.198] info:  Remix UI deactivated.
+[13:08:40.817] info:  Remix UI activated.
+[13:08:41.318] info:  Remix UI deactivated.
+[13:28:05.130] info:  Remix UI activated.
+[13:28:05.495] info:  Remix UI deactivated.
+[13:32:02.520] info:  Client window became inactive, disabling timeouts for bridge client...
+[13:32:02.752] info:  About to unload bridge client.
+[13:32:02.753] info:  Sending Terminate command to server...
+[13:32:03.791] info:  Server notified that it has cleanly terminated. Cleaning up.
+[13:32:06.375] info:  Most recent Device Queue commands sent from Client
+[13:32:06.375] info:  Command sent: Terminate
+[13:32:06.376] info:  Command sent: IDirect3DDevice9Ex_Destroy
+[13:32:06.376] info:  Command sent: IDirect3DVertexDeclaration9_Destroy
+[13:32:06.376] info:  Command sent: IDirect3DSurface9_Destroy
+[13:32:06.376] info:  Command sent: IDirect3DIndexBuffer9_Destroy
+[13:32:06.376] info:  Command sent: IDirect3DSurface9_Destroy
+[13:32:06.376] info:  Command sent: Bridge_UnlinkResource
+[13:32:06.376] info:  Command sent: IDirect3DTexture9_Destroy
+[13:32:06.376] info:  Command sent: Bridge_UnlinkResource
+[13:32:06.376] info:  Command sent: IDirect3DSwapChain9_Destroy
+[13:32:06.376] info:  Most recent Device Queue commands received by Server
+[13:32:06.377] info:  Command received: Terminate
+[13:32:06.377] info:  Command received: IDirect3DDevice9Ex_Destroy
+[13:32:06.377] info:  Command received: IDirect3DVertexDeclaration9_Destroy
+[13:32:06.377] info:  Command received: IDirect3DSurface9_Destroy
+[13:32:06.377] info:  Command received: IDirect3DIndexBuffer9_Destroy
+[13:32:06.377] info:  Command received: IDirect3DSurface9_Destroy
+[13:32:06.377] info:  Command received: Bridge_UnlinkResource
+[13:32:06.377] info:  Command received: IDirect3DTexture9_Destroy
+[13:32:06.377] info:  Command received: Bridge_UnlinkResource
+[13:32:06.377] info:  Command received: IDirect3DSwapChain9_Destroy
+[13:32:06.378] info:  Most recent Module Queue commands sent from Client
+[13:32:06.378] info:  Command sent: IDirect3D9Ex_Destroy
+[13:32:06.378] info:  Command sent: IDirect3D9Ex_CheckDepthStencilMatch
+[13:32:06.378] info:  Command sent: IDirect3D9Ex_CheckDepthStencilMatch
+[13:32:06.378] info:  Command sent: IDirect3D9Ex_CheckDepthStencilMatch
+[13:32:06.378] info:  Command sent: IDirect3D9Ex_CheckDepthStencilMatch
+[13:32:06.378] info:  Most recent Module Queue commands received by Server
+[13:32:06.378] info:  Command received: IDirect3D9Ex_Destroy
+[13:32:06.378] info:  Command received: IDirect3D9Ex_CheckDepthStencilMatch
+[13:32:06.379] info:  Command received: IDirect3D9Ex_CheckDepthStencilMatch
+[13:32:06.379] info:  Command received: IDirect3D9Ex_CheckDepthStencilMatch
+[13:32:06.379] info:  Command received: IDirect3D9Ex_CheckDepthStencilMatch
+[13:32:06.379] info:  Shutdown cleanup successful, exiting now!
+[13:32:06.379] info:  DirectInput8 hook detached.
+[13:32:06.379] info:  DirectInput hook detached.
+[13:32:06.379] info:  [Uptime]: 2696s
