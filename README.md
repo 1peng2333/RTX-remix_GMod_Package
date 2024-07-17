@@ -1,0 +1,21 @@
+### A WORKING RTX REMIX CLIENT FOR GARRY'S MOD DATED 2024/07/04
+
+Related codes are:
+https://github.com/NVIDIAGameWorks/rtx-remix
+https://github.com/NVIDIAGameWorks/dxvk-remix
+https://github.com/NVIDIAGameWorks/bridge-remix
+https://xenthio.github.io
+https://steamcommunity.com/sharedfiles/filedetails/?id=3038853470
+
+### Installion
+1. Go to (Whatever drive):\SteamLibrary\steamapps\common\GarrysMod
+2. Back up your game client, a copy of the game into another place is recommended.
+3. Drop everything inside "GarrysMod" folder, replace all if noticied.
+4. Run any bats file that matches your resolution.
+5. (Optional) Disable all your mods, enable necessary ones later.
+6. Load gm_construct RTX version map in your sandbox map browser. Press Alt + X to configure.
+
+### Notes
+1. A NVIDIA RTX Video card is required, recommended RTX 4070+ or RTX 3090+
+2. 4k resolution does not perform well, expect crashes.
+3. Special thanks to Xenthio (links above) and NVIDIA, this is an edit to their work that ensure everything is working at a point.
