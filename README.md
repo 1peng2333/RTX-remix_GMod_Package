@@ -14,7 +14,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2861839844 <br />
 3. **Back up** your game client, a complete copy of the game into another place is recommended (so you can play normal Garry's mod if you felt dizzy with the RTX!).
 **Back up****Back up****Back up****pz Back up****PZ Back up!**
 
-4. Drop everything inside "GarrysMod" folder (The one that G is capital and hl2.exe is inside), replace all if noticied.
+4. Drop everything inside "GarrysMod" folder (The one that G is capital and hl2.exe is inside), replace all if notified.
 5. Run any bats file that matches your resolution.
 6. (Optional) **Disable all your mods**, enable necessary ones later, use the **default or invisible player model at first**.
 7. Load gm_construct RTX version map in your sandbox map browser. Press Alt + X to configure.
