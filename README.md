@@ -1,4 +1,5 @@
 ### A WORKING RTX REMIX CLIENT FOR GARRY'S MOD DATED 2024/07/04
+Still works 2025/03/15 (However, RTX-Remix was updated to 1.0. I will update this soon to support DLSS 4.0)
 
 Related codes are: <br />
 https://github.com/NVIDIAGameWorks/rtx-remix <br />
