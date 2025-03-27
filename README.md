@@ -21,7 +21,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2861839844 <br />
 
 ### Performance
 This package was tested in a few devices listed below, all on "gm_construct_rtx" map, factory settings:
-DLSS Balanced, Frame generated enabled if possible.
+DLSS Auto, Frame generated enabled if possible.
 | Device  | FPS | FPS (1% Low) |
 | ------------- | ------------- | ------------- |
 | 12900K + 2080  | DIED  | WONT RUN |
