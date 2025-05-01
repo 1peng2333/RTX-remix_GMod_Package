@@ -1,5 +1,4 @@
-### A WORKING RTX REMIX CLIENT FOR GARRY'S MOD DATED 2024/07/04
-Still works 2025/03/15 (However, RTX-Remix was updated to 1.0. I will update this soon to support DLSS 4.0)
+### A WORKING RTX REMIX CLIENT FOR GARRY'S MOD DATED 2025/04/30
 
 Related codes are: <br />
 https://github.com/NVIDIAGameWorks/rtx-remix <br />
@@ -10,27 +9,28 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3038853470 <br />
 https://steamcommunity.com/sharedfiles/filedetails/?id=2861839844 <br />
 
 ### Installion
-1. Download this repository by clicking the green "Code" buttom on the top right, and click "Download ZIP"
-2. Go to (Whatever drive):\SteamLibrary\steamapps\common\GarrysMod <- (Note there will be a "garrys mod" folder inside "GarrysMod, don't ever go in there!)
+1. Download this repository from **Release** on the right of the page.
+2. Go to (Whatever drive):\SteamLibrary\steamapps\common\GarrysMod <- (Note there will be a "garrysmod" folder inside "GarrysMod, don't ever go in there!)
 3. **Back up** your game client, a complete copy of the game into another place is recommended (so you can play normal Garry's mod if you felt dizzy with the RTX!).
 **Back up** **Back up** **Back up** **pz Back up** **PZ Back up!**
 4. **Disable all your mods** in vallina Garry's mod, enable necessary ones later, use the **default or invisible player model at first**.
 5. Drop everything inside "GarrysMod" folder (The one that G is capital and hl2.exe or gmod.exe is inside), replace all if notified.
 6. Run any bats file that matches your resolution.
-7. Load gm_construct RTX version map in your sandbox map browser. Press Alt + X to configure.
+7. Load gm_construct RTX version map in your sandbox map browser. Press Alt + X to configure RTX-Remix.
 
 ### Performance
-This package was tested in a few devices listed below, all on "gm_construct_rtx" map, factory settings:
-DLSS Auto, Frame generated enabled if possible.
-| Device  | FPS | FPS (1% Low) |
-| ------------- | ------------- | ------------- |
-| 12900K + 2080  | DIED  | WONT RUN |
-| 13900K + 3060Ti  | 24  | 9  |
-| 13900K + 3080Ti  | 39  | 25  |
-| 13900K + 4070 Super  | 57  | 41  |
-| 14900K + 4090  | 140  | 86  |
-| 7800X3D + 4090  | 140  | 96  |
-| 9800X3D + 5090 (DLSS4)  | 253  | 117  |
+This package was tested in a few devices listed below, all on "gm_construct_rtx" map. DLSS Performance, Framegen enabled to max if possible.
+Resolution is 3840 x 2160 (4K), RTX-Remix is in default settings.
+
+| Device  | FPS | FPS (1% Low) | DLSS Version |
+| ------------- | ------------- | ------------- | ------------- |
+| 14900K + 2080 | DIED | WONT RUN | 2 |
+| 14900K + 3060Ti | 29 | 24 | 3 |
+| 14900K + 3080Ti | 40 | 29 | 3 |
+| 14900K + 4070Ti Super | 89 | 60 | 3 |
+| 14900K + 4090 | 141 | 94 | 3 |
+| 7800X3D + 4090 | 145 | 110 | 3 |
+| 9800X3D + 5090 (DLSS4) | 286 | 211 | 4 |
 
 ### Notes
 1. A NVIDIA RTX Video card is required, recommended RTX 4070+ or RTX 3090+. RTX 20XX cards won't work. Use RTX 40XX to use DLSS Frame Generation.
