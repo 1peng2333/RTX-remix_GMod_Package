@@ -34,8 +34,8 @@ Resolution is 3840 x 2160 (4K), RTX-Remix is in default settings.
 
 ### Notes
 1. A NVIDIA RTX Video card is required, recommended RTX 4070+ or RTX 3090+. RTX 20XX cards won't work. Use RTX 40XX to use DLSS Frame Generation.
-2. Newest NVIDIA Driver is Required, NVIDIA Studio driver is recommended.
-3. 4k resolution does not perform well, expect crashes.
+2. The game is at an older version, which will prevent you from joining any servers running newer versions. This will dismiss potential risks with VAC.
+3. Most recent NVIDIA Driver is Required, NVIDIA Studio driver is recommended.
 4. Special thanks to Xenthio (links above) and NVIDIA, this is an edit to their work that ensure everything is working at a point.
 5. Does not run on Linux.
 6. You can get more RTX-remix map mods for Garry's Mod from ModDB.
