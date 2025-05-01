@@ -1,2 +1,0 @@
-del .\garrysmod\console.log
-hl2 -allowdebug -dxlevel 90 -nod3d9ex -w 3288 -h 1850 -debug -insecure +mat_dxlevel 90 +mat_disable_d3d9ex 1 +sv_vac 0 +sv_cheats 1 +r_3dsky 0 +r_WaterDrawReflection 0 +r_WaterDrawRefraction 0 +mat_softwareskin 0 +r_shadows 0 +r_frustumcullworld 0 +r_occlusion 0 +r_unloadlightmaps 1 +mat_specular 0 +mat_bumpmap 0 +mat_normalmap 0 +mat_parallaxmap 0 +r_staticprop_lod 0 +r_lod 0 +mat_forcedynamic 1

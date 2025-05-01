@@ -1,0 +1,34 @@
+[21:09:17.716] info:  Found default config for: Source Engine
+[21:09:17.716] info:  Trying to open config file: h:\steamlibrary\steamapps\common\garrysmod_rtx\bin\.trex\bridge.conf
+[21:09:17.716] info:  Found user config file: h:\steamlibrary\steamapps\common\garrysmod_rtx\bin\.trex\bridge.conf
+[21:09:17.716] info:  Effective configuration:
+[21:09:17.717] info:    presentSemaphoreMaxFrames  = 1
+[21:09:17.717] info:    presentSemaphoreMaxFrames = 1
+[21:09:17.717] info:  ==================
+[21:09:17.717] info:  NVIDIA RTX Remix Bridge Server
+[21:09:17.717] info:  ==================
+[21:09:17.717] info:  Version: remix-0.5.0-rc1+1cc6a1c0
+[21:09:17.717] info:  Running in x64 mode!
+[21:09:17.717] info:  Launched server with GUID bbb77b4f-e3b7-457b-8a3d-b36c8d83d818
+[21:09:17.718] info:  Server started up, waiting for connection from client...
+[21:09:17.718] info:  Registering exit callback in case client exits unexpectedly.
+[21:09:17.718] info:  Registering message channel for asynchronous message handling.
+[21:09:17.718] info:  Initializing D3D9...
+[21:09:17.718] info:  Message channel MessageChannelServer established.
+[21:09:18.064] info:  D3D9 interface object creation succeeded!
+[21:09:18.064] info:  Loaded D3D9 from h:\steamlibrary\steamapps\common\garrysmod_rtx\bin\.trex\d3d9.dll
+[21:09:18.065] info:  Version of d3d9 loaded is DXVK
+[21:09:18.065] info:  Sync request received, sending ACK response...
+[21:09:18.065] info:  Done! Now waiting for client to consume the response...
+[21:09:18.065] info:  Handshake completed! Now waiting for incoming commands...
+[21:09:18.065] info:  D3D9 Module destroyed.
+[21:09:21.054] info:  Server side D3D9 Device created successfully!
+[21:20:22.089] info:  D3D9 Module destroyed.
+[21:20:23.088] err:   4 objects discovered in Volume map at Direct3D module eviction:
+[21:20:23.089] err:   	358 -> 00000203ED56BF40
+[21:20:23.089] err:   	c9 -> 00000202E2A86420
+[21:20:23.089] err:   	260 -> 00000203ED56D020
+[21:20:23.089] err:   	4688 -> 00000202A7C33320
+[21:20:23.089] info:  Command processing loop finished, cleaning up and exiting...
+[21:20:23.089] info:  Shutdown cleanup successful, exiting now!
+[21:20:23.089] info:  [Uptime]: 665s

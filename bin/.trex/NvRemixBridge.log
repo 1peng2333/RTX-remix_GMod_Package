@@ -1,0 +1,37 @@
+[11:50:30.574] info:  Found default config for: Source Engine
+[11:50:30.574] info:  Trying to open config file: h:\steamlibrary\steamapps\common\garrysmod_rtx\bin\.trex\bridge.conf
+[11:50:30.574] info:  Found user config file: h:\steamlibrary\steamapps\common\garrysmod_rtx\bin\.trex\bridge.conf
+[11:50:30.574] info:  Effective configuration:
+[11:50:30.574] info:    presentSemaphoreMaxFrames  = 1
+[11:50:30.574] info:    presentSemaphoreMaxFrames = 1
+[11:50:30.575] info:  ==================
+[11:50:30.575] info:  NVIDIA RTX Remix Bridge Server
+[11:50:30.575] info:  ==================
+[11:50:30.575] info:  Version: remix-0.5.0-rc1+1cc6a1c0
+[11:50:30.575] info:  Running in x64 mode!
+[11:50:30.575] info:  Launched server with GUID b69f56a6-6ddd-4125-a78e-8bf06a979ec7
+[11:50:30.575] info:  Server started up, waiting for connection from client...
+[11:50:30.575] info:  Registering exit callback in case client exits unexpectedly.
+[11:50:30.575] info:  Registering message channel for asynchronous message handling.
+[11:50:30.576] info:  Initializing D3D9...
+[11:50:30.576] info:  Message channel MessageChannelServer established.
+[11:50:30.958] info:  D3D9 interface object creation succeeded!
+[11:50:30.959] info:  Loaded D3D9 from h:\steamlibrary\steamapps\common\garrysmod_rtx\bin\.trex\d3d9.dll
+[11:50:30.959] info:  Version of d3d9 loaded is DXVK
+[11:50:30.959] info:  Sync request received, sending ACK response...
+[11:50:30.960] info:  Done! Now waiting for client to consume the response...
+[11:50:30.960] info:  Handshake completed! Now waiting for incoming commands...
+[11:50:30.960] info:  D3D9 Module destroyed.
+[11:50:33.680] info:  Server side D3D9 Device created successfully!
+[11:58:45.840] info:  Client window became inactive, disabling timeouts for bridge server...
+[11:58:50.528] info:  Client window became active, reenabling timeouts for bridge server!
+[12:05:22.961] info:  Client window became inactive, disabling timeouts for bridge server...
+[12:06:13.227] info:  Client window became active, reenabling timeouts for bridge server!
+[12:11:33.430] info:  D3D9 Module destroyed.
+[12:11:34.419] err:   3 objects discovered in Volume map at Direct3D module eviction:
+[12:11:34.420] err:   	358 -> 0000018F69C7F520
+[12:11:34.420] err:   	c9 -> 0000018F6C311660
+[12:11:34.420] err:   	260 -> 0000018F69C7DBD0
+[12:11:34.420] info:  Command processing loop finished, cleaning up and exiting...
+[12:11:34.420] info:  Shutdown cleanup successful, exiting now!
+[12:11:34.420] info:  [Uptime]: 1263s

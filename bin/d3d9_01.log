@@ -1,0 +1,33 @@
+[13:58:16.893] info:  Found default config for: Source Engine
+[13:58:16.893] info:  Trying to open config file: h:\steamlibrary\steamapps\common\garrysmod_rtx\bin\.trex\bridge.conf
+[13:58:16.893] info:  Found user config file: h:\steamlibrary\steamapps\common\garrysmod_rtx\bin\.trex\bridge.conf
+[13:58:16.893] info:  Effective configuration:
+[13:58:16.893] info:    presentSemaphoreMaxFrames  = 1
+[13:58:16.893] info:    presentSemaphoreMaxFrames = 1
+[13:58:16.893] info:  ==================
+[13:58:16.893] info:  NVIDIA RTX Remix Bridge Client
+[13:58:16.893] info:  ==================
+[13:58:16.894] info:  Version: remix-0.5.0-rc1+1cc6a1c0
+[13:58:16.894] info:  Loaded d3d9.dll from H:\SteamLibrary\steamapps\common\GarrysMod_RTX\hl2.exe
+[13:58:16.895] warn:  Injected DirectInput8Create proc detected!
+[13:58:16.976] info:  DirectInput8 hook attached.
+[13:58:16.979] warn:  Injected DirectInputCreate proc detected!
+[13:58:16.996] info:  DirectInput hook attached.
+[13:58:16.996] info:  Initializing new shared memory object.
+[13:58:16.997] info:  Initializing new shared memory object.
+[13:58:16.999] info:  Initializing new shared memory object.
+[13:58:17.025] info:  Initializing new shared memory object.
+[13:58:17.050] info:  Launching server with GUID 98d1a821-1acf-4799-a19c-6a178c0940fc
+[13:58:17.058] info:  Process set as DPI aware
+[13:58:17.059] info:  Sending SYN command, waiting for ACK from server...
+[13:58:17.479] info:  Ack received! Handshake completed! Telling server to continue waiting for commands...
+[13:58:17.576] warn:  Unsupported DirectInput version: 5.10.
+[13:58:19.358] info:  Creating a thread-safe D3D9 device.
+[13:58:27.553] info:  Message channel UWM_REMIX_BRIDGE_REGISTER_THREADPROC_MSG handshake complete.
+[13:58:41.492] info:  Client window became inactive, disabling timeouts for bridge client...
+[13:58:46.030] info:  Remix UI deactivated.
+[13:58:46.030] info:  Remix UI deactivated.
+[13:58:46.040] info:  Client window became active, reenabling timeouts for bridge client...
+[13:58:46.600] info:  Client window became inactive, disabling timeouts for bridge client...
+[13:59:02.907] info:  Client window became active, reenabling timeouts for bridge client...
+[13:59:21.417] info:  Client window became inactive, disabling timeouts for bridge client...

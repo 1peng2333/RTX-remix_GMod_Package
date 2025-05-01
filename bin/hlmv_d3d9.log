@@ -1,0 +1,416 @@
+[11:52:22.280] info:  Game: hlmv.exe
+[11:52:22.280] info:  DXVK_Remix: remix-main+06b04b3d
+[11:52:22.280] info:  Init config: User
+[11:52:22.280] info:  Looking for config: User
+[11:52:22.280] info:  Attempting to parse: dxvk.conf at CWD("H:\\SteamLibrary\\steamapps\\common\\GarrysMod_RTX\\bin")...
+[11:52:22.281] info:  No config file found at: dxvk.conf
+[11:52:22.281] info:  Init config: App
+[11:52:22.281] info:  Looking for config: App
+[11:52:22.284] info:  Did not find app config for executable: H:\SteamLibrary\steamapps\common\GarrysMod_RTX\bin\hlmv.exe
+[11:52:22.284] info:  Set startup config.
+[11:52:22.284] info:  Init config: RtxUser
+[11:52:22.284] info:  Looking for config: RtxUser
+[11:52:22.284] info:  Attempting to parse: rtx.conf at CWD("H:\\SteamLibrary\\steamapps\\common\\GarrysMod_RTX\\bin")...
+[11:52:22.284] info:  No config file found at: rtx.conf
+[11:52:22.284] info:  Set custom config.
+[11:52:22.284] info:  Init config: RtxMod
+[11:52:22.284] info:  No base game mod path found. Skipping initilization.
+[11:52:22.285] info:  Geometry generation hash rule:
+[11:52:22.285] info:  	positions
+[11:52:22.285] info:  	indices
+[11:52:22.285] info:  	texcoords
+[11:52:22.285] info:  	geometrydescriptor
+[11:52:22.285] info:  	vertexlayout
+[11:52:22.285] info:  	vertexshader
+[11:52:22.285] info:  Geometry asset hash rule:
+[11:52:22.285] info:  	positions
+[11:52:22.285] info:  	indices
+[11:52:22.285] info:  	geometrydescriptor
+[11:52:22.285] info:  Built-in extension providers:
+[11:52:22.285] info:    Win32 WSI
+[11:52:22.285] info:    OpenVR
+[11:52:22.285] info:    OpenXR
+[11:52:22.285] info:  OpenVR: could not open registry key, status 2
+[11:52:22.286] info:  OpenVR: Failed to locate module
+[11:52:22.336] info:  Enabled instance extensions:
+[11:52:22.336] info:    VK_KHR_external_memory_capabilities
+[11:52:22.336] info:    VK_KHR_external_semaphore_capabilities
+[11:52:22.336] info:    VK_KHR_get_physical_device_properties2
+[11:52:22.336] info:    VK_KHR_get_surface_capabilities2
+[11:52:22.336] info:    VK_KHR_surface
+[11:52:22.336] info:    VK_KHR_win32_surface
+[11:52:22.340] info:  Enabled Layer Names:
+[11:52:22.413] info:  D3D9: VK_FORMAT_D16_UNORM_S8_UINT -> VK_FORMAT_D24_UNORM_S8_UINT
+[11:52:22.413] info:  NVIDIA GeForce RTX 4090:
+[11:52:22.413] info:    Driver: 565.90.0
+[11:52:22.413] info:    Vulkan: 1.3.289
+[11:52:22.413] info:    Memory Heap[0]: 
+[11:52:22.413] info:      Size: 24142 MiB
+[11:52:22.413] info:      Flags: 0x1
+[11:52:22.413] info:      Memory Type[1]: Property Flags = 0x1
+[11:52:22.413] info:      Memory Type[4]: Property Flags = 0x7
+[11:52:22.413] info:    Memory Heap[1]: 
+[11:52:22.413] info:      Size: 32653 MiB
+[11:52:22.413] info:      Flags: 0x0
+[11:52:22.413] info:      Memory Type[0]: Property Flags = 0x0
+[11:52:22.413] info:      Memory Type[2]: Property Flags = 0x6
+[11:52:22.413] info:      Memory Type[3]: Property Flags = 0xe
+[11:52:22.414] info:  Process set as DPI aware
+[11:52:22.425] warn:  ConvertFormat: Unknown format encountered: D3D9Format::SSAA
+[11:52:22.435] warn:  ConvertFormat: Unknown format encountered: D3D9Format::SSAA
+[11:52:22.674] info:  Device properties:
+[11:52:22.674] info:    Device name:     : NVIDIA GeForce RTX 4090
+[11:52:22.674] info:    Vendor name:     : NVIDIA
+[11:52:22.674] info:    Device ID:       : 0x2684
+[11:52:22.674] info:    Vendor ID:       : 0x10de
+[11:52:22.674] info:    Driver version   : 565.90.0
+[11:52:22.674] info:  Enabled device extensions:
+[11:52:22.674] info:    VK_EXT_4444_formats
+[11:52:22.674] info:    VK_EXT_calibrated_timestamps
+[11:52:22.674] info:    VK_EXT_conservative_rasterization
+[11:52:22.674] info:    VK_EXT_custom_border_color
+[11:52:22.674] info:    VK_EXT_depth_clip_enable
+[11:52:22.674] info:    VK_EXT_extended_dynamic_state
+[11:52:22.674] info:    VK_EXT_full_screen_exclusive
+[11:52:22.674] info:    VK_EXT_memory_priority
+[11:52:22.674] info:    VK_EXT_opacity_micromap
+[11:52:22.674] info:    VK_EXT_robustness2
+[11:52:22.674] info:    VK_EXT_shader_demote_to_helper_invocation
+[11:52:22.674] info:    VK_EXT_shader_viewport_index_layer
+[11:52:22.674] info:    VK_EXT_transform_feedback
+[11:52:22.674] info:    VK_EXT_vertex_attribute_divisor
+[11:52:22.674] info:    VK_KHR_acceleration_structure
+[11:52:22.674] info:    VK_KHR_buffer_device_address
+[11:52:22.674] info:    VK_KHR_create_renderpass2
+[11:52:22.674] info:    VK_KHR_deferred_host_operations
+[11:52:22.674] info:    VK_KHR_depth_stencil_resolve
+[11:52:22.674] info:    VK_KHR_draw_indirect_count
+[11:52:22.674] info:    VK_KHR_driver_properties
+[11:52:22.674] info:    VK_KHR_external_memory
+[11:52:22.674] info:    VK_KHR_external_memory_win32
+[11:52:22.674] info:    VK_KHR_external_semaphore
+[11:52:22.675] info:    VK_KHR_external_semaphore_win32
+[11:52:22.675] info:    VK_KHR_image_format_list
+[11:52:22.675] info:    VK_KHR_maintenance4
+[11:52:22.675] info:    VK_KHR_pipeline_library
+[11:52:22.675] info:    VK_KHR_push_descriptor
+[11:52:22.675] info:    VK_KHR_ray_query
+[11:52:22.675] info:    VK_KHR_ray_tracing_pipeline
+[11:52:22.675] info:    VK_KHR_sampler_mirror_clamp_to_edge
+[11:52:22.675] info:    VK_KHR_shader_float16_int8
+[11:52:22.675] info:    VK_KHR_shader_float_controls
+[11:52:22.675] info:    VK_KHR_swapchain
+[11:52:22.675] info:    VK_KHR_synchronization2
+[11:52:22.675] info:    VK_NVX_binary_import
+[11:52:22.675] info:    VK_NVX_image_view_handle
+[11:52:22.675] info:    VK_NV_low_latency
+[11:52:22.675] info:    VK_NV_optical_flow
+[11:52:22.675] info:    VK_NV_ray_tracing_invocation_reorder
+[11:52:22.675] info:  Device features:
+[11:52:22.675] info:    robustBufferAccess                     : 1
+[11:52:22.675] info:    fullDrawIndexUint32                    : 1
+[11:52:22.675] info:    imageCubeArray                         : 1
+[11:52:22.675] info:    independentBlend                       : 1
+[11:52:22.675] info:    geometryShader                         : 1
+[11:52:22.675] info:    tessellationShader                     : 0
+[11:52:22.675] info:    sampleRateShading                      : 1
+[11:52:22.675] info:    dualSrcBlend                           : 0
+[11:52:22.675] info:    logicOp                                : 0
+[11:52:22.675] info:    multiDrawIndirect                      : 0
+[11:52:22.675] info:    drawIndirectFirstInstance              : 0
+[11:52:22.675] info:    depthClamp                             : 1
+[11:52:22.675] info:    depthBiasClamp                         : 1
+[11:52:22.675] info:    fillModeNonSolid                       : 1
+[11:52:22.675] info:    depthBounds                            : 1
+[11:52:22.675] info:    multiViewport                          : 1
+[11:52:22.675] info:    samplerAnisotropy                      : 1
+[11:52:22.675] info:    textureCompressionBC                   : 1
+[11:52:22.675] info:    occlusionQueryPrecise                  : 1
+[11:52:22.675] info:    pipelineStatisticsQuery                : 1
+[11:52:22.675] info:    vertexPipelineStoresAndAtomics         : 1
+[11:52:22.675] info:    fragmentStoresAndAtomics               : 0
+[11:52:22.675] info:    shaderImageGatherExtended              : 0
+[11:52:22.675] info:    shaderStorageImageExtendedFormats      : 0
+[11:52:22.675] info:    shaderStorageImageReadWithoutFormat    : 0
+[11:52:22.675] info:    shaderStorageImageWriteWithoutFormat   : 1
+[11:52:22.675] info:    shaderClipDistance                     : 1
+[11:52:22.675] info:    shaderCullDistance                     : 1
+[11:52:22.675] info:    shaderFloat64                          : 0
+[11:52:22.675] info:    shaderInt64                            : 0
+[11:52:22.675] info:    variableMultisampleRate                : 0
+[11:52:22.675] info:    hostQueryReset                         : 1
+[11:52:22.675] info:  VK_EXT_4444_formats
+[11:52:22.675] info:    formatA4R4G4B4                         : 1
+[11:52:22.675] info:    formatA4B4G4R4                         : 1
+[11:52:22.675] info:  VK_EXT_custom_border_color
+[11:52:22.675] info:    customBorderColors                     : 1
+[11:52:22.675] info:    customBorderColorWithoutFormat         : 1
+[11:52:22.675] info:  VK_EXT_depth_clip_enable
+[11:52:22.675] info:    depthClipEnable                        : 1
+[11:52:22.675] info:  VK_EXT_extended_dynamic_state
+[11:52:22.675] info:    extendedDynamicState                   : 1
+[11:52:22.675] info:  VK_EXT_memory_priority
+[11:52:22.675] info:    memoryPriority                         : 1
+[11:52:22.675] info:  VK_EXT_robustness2
+[11:52:22.675] info:    robustBufferAccess2                    : 1
+[11:52:22.675] info:    robustImageAccess2                     : 0
+[11:52:22.675] info:    nullDescriptor                         : 1
+[11:52:22.675] info:  VK_EXT_shader_demote_to_helper_invocation
+[11:52:22.675] info:    shaderDemoteToHelperInvocation         : 1
+[11:52:22.675] info:  VK_EXT_transform_feedback
+[11:52:22.675] info:    transformFeedback                      : 1
+[11:52:22.675] info:    geometryStreams                        : 0
+[11:52:22.675] info:  VK_EXT_vertex_attribute_divisor
+[11:52:22.675] info:    vertexAttributeInstanceRateDivisor     : 1
+[11:52:22.675] info:    vertexAttributeInstanceRateZeroDivisor : 1
+[11:52:22.675] info:  VK_KHR_buffer_device_address
+[11:52:22.675] info:    bufferDeviceAddress                    : 1
+[11:52:22.675] info:  VK_NV_optical_flow
+[11:52:22.675] info:    nvOpticalFlow                            : 1
+[11:52:22.675] info:  Queue families:
+[11:52:22.675] info:    Graphics : 0
+[11:52:22.675] info:    Transfer : 1
+[11:52:22.675] info:    Async Compute : 2
+[11:52:22.675] info:    Optical flow : 5
+[11:52:22.675] info:    Present : 2
+[11:52:22.895] info:  DXVK: Read 67 valid state cache entries
+[11:52:22.895] info:  DXVK: Using 22 compiler threads
+[11:52:22.905] warn:  Cannot find rtx-remix\mods\ under current directory: H:\SteamLibrary\steamapps\common\GarrysMod_RTX\bin
+[11:52:22.909] info:  [GameCapturer] DXVK_RTX_CAPTURE_ENABLE_ON_FRAME: 
+[11:52:23.827] info:  Reflex initialized successfully.
+[11:52:23.828] info:  Automatic Graphics Preset in use (Set rtx.graphicsPreset to something other than Auto use a non-automatic preset)
+[11:52:23.829] info:  NVIDIA Ada architecture detected, setting default graphics settings to Ultra
+[11:52:23.829] info:  Automatic Raytrace Mode Preset in use (Set rtx.raytraceModePreset to something other than Auto use a non-automatic preset)
+[11:52:23.829] info:  NVIDIA architecture detected, setting default raytrace modes to Trace Ray (GBuffer/Indirect Integrate) and Ray Query (Direct Integrate)
+[11:52:24.048] info:  [RTX info] Opacity Micromap: supported
+[11:52:24.048] info:  [RTX info] Shader Execution Reordering: supported
+[11:52:24.048] info:  [RTX info] Shader Execution Reordering: enabled
+[11:52:24.048] info:  CPU supports SIMD: AVX2
+[11:52:24.064] info:  D3D9DeviceEx::ResetSwapChain:
+[11:52:24.064] info:    Requested Presentation Parameters
+[11:52:24.064] info:      - Width:              3840
+[11:52:24.064] info:      - Height:             2160
+[11:52:24.064] info:      - Format:             D3D9Format::A8R8G8B8
+[11:52:24.064] info:      - Auto Depth Stencil: true
+[11:52:24.064] info:                  ^ Format: D3D9Format::D24S8
+[11:52:24.064] info:      - Windowed:           true
+[11:52:24.356] info:  Presenter: Actual swap chain properties:
+[11:52:24.356] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:24.356] info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR
+[11:52:24.356] info:    Buffer size:  100x100
+[11:52:24.356] info:    Image count:  3
+[11:52:24.356] info:    Exclusive FS: 2
+[11:52:27.810] info:  No winproc detected, initiating bridge message channel for: 00000001000706E6
+[11:52:28.160] warn:  D3D9DeviceEx::SetRenderState: Unhandled render state D3DRS_MULTISAMPLEANTIALIAS
+[11:52:31.286] info:  Message channel UWM_REMIX_BRIDGE_REGISTER_THREADPROC_MSG established.
+[11:52:31.288] warn:  D3D9Texture2D::QueryInterface: Unknown interface query
+[11:52:31.288] warn:  794950f2-adfc-458a-905e-10a10b0b503b
+[11:52:31.387] info:  No winproc detected, initiating bridge message channel for: 00000000000706E6
+[11:52:31.406] info:  Presenter: Actual swap chain properties:
+[11:52:31.406] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:31.406] info:    Present mode: VK_PRESENT_MODE_IMMEDIATE_KHR
+[11:52:31.406] info:    Buffer size:  616x362
+[11:52:31.406] info:    Image count:  3
+[11:52:31.406] info:    Exclusive FS: 2
+[11:52:31.470] info:  Presenter: Actual swap chain properties:
+[11:52:31.470] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:31.470] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:31.470] info:    Buffer size:  616x362
+[11:52:31.470] info:    Image count:  3
+[11:52:31.470] info:    Exclusive FS: 2
+[11:52:31.522] info:  [RTX-Compatibility-Info] Trying to raytrace but not detecting a valid camera.
+[11:52:31.700] info:  Message channel UWM_REMIX_BRIDGE_REGISTER_THREADPROC_MSG established.
+[11:52:32.564] info:  Presenter: Actual swap chain properties:
+[11:52:32.564] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:32.564] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:32.564] info:    Buffer size:  616x361
+[11:52:32.564] info:    Image count:  3
+[11:52:32.564] info:    Exclusive FS: 2
+[11:52:32.641] info:  Presenter: Actual swap chain properties:
+[11:52:32.641] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:32.641] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:32.641] info:    Buffer size:  616x332
+[11:52:32.641] info:    Image count:  3
+[11:52:32.641] info:    Exclusive FS: 2
+[11:52:32.865] info:  Presenter: Actual swap chain properties:
+[11:52:32.865] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:32.865] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:32.865] info:    Buffer size:  616x317
+[11:52:32.865] info:    Image count:  3
+[11:52:32.865] info:    Exclusive FS: 2
+[11:52:32.937] info:  Presenter: Actual swap chain properties:
+[11:52:32.937] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:32.937] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:32.937] info:    Buffer size:  616x336
+[11:52:32.937] info:    Image count:  3
+[11:52:32.937] info:    Exclusive FS: 2
+[11:52:33.016] info:  Presenter: Actual swap chain properties:
+[11:52:33.016] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:33.016] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:33.016] info:    Buffer size:  616x363
+[11:52:33.016] info:    Image count:  3
+[11:52:33.016] info:    Exclusive FS: 2
+[11:52:33.113] info:  Presenter: Actual swap chain properties:
+[11:52:33.113] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:33.113] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:33.113] info:    Buffer size:  616x374
+[11:52:33.113] info:    Image count:  3
+[11:52:33.113] info:    Exclusive FS: 2
+[11:52:33.204] info:  Presenter: Actual swap chain properties:
+[11:52:33.204] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:33.204] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:33.204] info:    Buffer size:  616x372
+[11:52:33.204] info:    Image count:  3
+[11:52:33.204] info:    Exclusive FS: 2
+[11:52:34.974] info:  Presenter: Actual swap chain properties:
+[11:52:34.974] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:34.974] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:34.974] info:    Buffer size:  616x373
+[11:52:34.974] info:    Image count:  3
+[11:52:34.974] info:    Exclusive FS: 2
+[11:52:35.060] info:  Presenter: Actual swap chain properties:
+[11:52:35.060] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:35.060] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:35.060] info:    Buffer size:  709x464
+[11:52:35.060] info:    Image count:  3
+[11:52:35.060] info:    Exclusive FS: 2
+[11:52:35.158] info:  Presenter: Actual swap chain properties:
+[11:52:35.158] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:35.158] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:35.158] info:    Buffer size:  921x672
+[11:52:35.158] info:    Image count:  3
+[11:52:35.158] info:    Exclusive FS: 2
+[11:52:35.233] info:  Presenter: Actual swap chain properties:
+[11:52:35.233] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:35.233] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:35.233] info:    Buffer size:  1112x855
+[11:52:35.233] info:    Image count:  3
+[11:52:35.233] info:    Exclusive FS: 2
+[11:52:35.308] info:  Presenter: Actual swap chain properties:
+[11:52:35.308] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:35.308] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:35.308] info:    Buffer size:  1216x953
+[11:52:35.308] info:    Image count:  3
+[11:52:35.308] info:    Exclusive FS: 2
+[11:52:35.384] info:  Presenter: Actual swap chain properties:
+[11:52:35.384] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:35.384] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:35.384] info:    Buffer size:  1239x985
+[11:52:35.384] info:    Image count:  3
+[11:52:35.384] info:    Exclusive FS: 2
+[11:52:35.508] info:  Presenter: Actual swap chain properties:
+[11:52:35.508] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:35.508] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:35.508] info:    Buffer size:  1294x1046
+[11:52:35.508] info:    Image count:  3
+[11:52:35.508] info:    Exclusive FS: 2
+[11:52:35.628] info:  Presenter: Actual swap chain properties:
+[11:52:35.628] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:35.628] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:35.628] info:    Buffer size:  1409x1115
+[11:52:35.628] info:    Image count:  3
+[11:52:35.628] info:    Exclusive FS: 2
+[11:52:35.701] info:  Presenter: Actual swap chain properties:
+[11:52:35.701] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:35.701] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:35.701] info:    Buffer size:  1440x1139
+[11:52:35.701] info:    Image count:  3
+[11:52:35.701] info:    Exclusive FS: 2
+[11:52:35.793] info:  Presenter: Actual swap chain properties:
+[11:52:35.793] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:52:35.793] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:52:35.793] info:    Buffer size:  1446x1149
+[11:52:35.793] info:    Image count:  3
+[11:52:35.793] info:    Exclusive FS: 2
+[11:53:39.696] info:  [RTX-Compatibility-Info] Trying to raytrace an unsupported primitive topology [2]. Ignoring.
+[11:54:17.410] info:  Presenter: Actual swap chain properties:
+[11:54:17.410] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:17.410] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:17.410] info:    Buffer size:  1446x1148
+[11:54:17.410] info:    Image count:  3
+[11:54:17.410] info:    Exclusive FS: 2
+[11:54:20.108] info:  Presenter: Actual swap chain properties:
+[11:54:20.108] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.108] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.108] info:    Buffer size:  1447x1148
+[11:54:20.108] info:    Image count:  3
+[11:54:20.108] info:    Exclusive FS: 2
+[11:54:20.185] info:  Presenter: Actual swap chain properties:
+[11:54:20.185] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.185] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.185] info:    Buffer size:  1477x1148
+[11:54:20.185] info:    Image count:  3
+[11:54:20.185] info:    Exclusive FS: 2
+[11:54:20.235] info:  Presenter: Actual swap chain properties:
+[11:54:20.235] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.235] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.235] info:    Buffer size:  1622x1148
+[11:54:20.235] info:    Image count:  3
+[11:54:20.235] info:    Exclusive FS: 2
+[11:54:20.283] info:  Presenter: Actual swap chain properties:
+[11:54:20.283] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.283] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.283] info:    Buffer size:  1770x1148
+[11:54:20.283] info:    Image count:  3
+[11:54:20.283] info:    Exclusive FS: 2
+[11:54:20.335] info:  Presenter: Actual swap chain properties:
+[11:54:20.335] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.335] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.335] info:    Buffer size:  1930x1148
+[11:54:20.335] info:    Image count:  3
+[11:54:20.335] info:    Exclusive FS: 2
+[11:54:20.388] info:  Presenter: Actual swap chain properties:
+[11:54:20.388] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.388] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.388] info:    Buffer size:  2072x1148
+[11:54:20.388] info:    Image count:  3
+[11:54:20.388] info:    Exclusive FS: 2
+[11:54:20.439] info:  Presenter: Actual swap chain properties:
+[11:54:20.439] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.439] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.439] info:    Buffer size:  2160x1148
+[11:54:20.439] info:    Image count:  3
+[11:54:20.439] info:    Exclusive FS: 2
+[11:54:20.510] info:  Presenter: Actual swap chain properties:
+[11:54:20.510] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.510] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.510] info:    Buffer size:  2184x1148
+[11:54:20.510] info:    Image count:  3
+[11:54:20.510] info:    Exclusive FS: 2
+[11:54:20.564] info:  Presenter: Actual swap chain properties:
+[11:54:20.564] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.564] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.564] info:    Buffer size:  2157x1148
+[11:54:20.564] info:    Image count:  3
+[11:54:20.564] info:    Exclusive FS: 2
+[11:54:20.614] info:  Presenter: Actual swap chain properties:
+[11:54:20.614] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.614] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.614] info:    Buffer size:  2046x1148
+[11:54:20.614] info:    Image count:  3
+[11:54:20.614] info:    Exclusive FS: 2
+[11:54:20.663] info:  Presenter: Actual swap chain properties:
+[11:54:20.663] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.663] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.663] info:    Buffer size:  1880x1148
+[11:54:20.663] info:    Image count:  3
+[11:54:20.663] info:    Exclusive FS: 2
+[11:54:20.715] info:  Presenter: Actual swap chain properties:
+[11:54:20.715] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.715] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.715] info:    Buffer size:  1699x1148
+[11:54:20.715] info:    Image count:  3
+[11:54:20.715] info:    Exclusive FS: 2
+[11:54:20.768] info:  Presenter: Actual swap chain properties:
+[11:54:20.768] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.768] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.768] info:    Buffer size:  1543x1148
+[11:54:20.768] info:    Image count:  3
+[11:54:20.768] info:    Exclusive FS: 2
+[11:54:20.821] info:  Presenter: Actual swap chain properties:
+[11:54:20.821] info:    Format:       VK_FORMAT_R8G8B8A8_UNORM
+[11:54:20.821] info:    Present mode: VK_PRESENT_MODE_FIFO_KHR
+[11:54:20.821] info:    Buffer size:  1475x1148
+[11:54:20.821] info:    Image count:  3
+[11:54:20.821] info:    Exclusive FS: 2
+[11:54:24.936] err:   [37] common device objects were not disposed of.
