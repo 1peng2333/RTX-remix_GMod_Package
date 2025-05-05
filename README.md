@@ -10,13 +10,17 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2861839844 <br />
 
 ### Installion
 1. Download this repository from **Release** on the right of the page.
-2. Go to (Whatever drive):\SteamLibrary\steamapps\common\GarrysMod <- (Note there will be a "garrysmod" folder inside "GarrysMod, don't ever go in there!)
-3. **Back up** your game client, a complete copy of the game into another place is recommended (so you can play normal Garry's mod if you felt dizzy with the RTX!).
+2. Update your NVIDIA Driver to the newest version available. Restart your computer after the update is finished.
+3. Go to (Whatever drive):\SteamLibrary\steamapps\common\GarrysMod <- (Note there will be a "garrysmod" folder inside "GarrysMod, don't ever go in there!)
+4. **Back up** your game client, a complete copy of the game into another place is recommended (so you can play normal Garry's mod if you felt dizzy with the RTX!).
 **Back up** **Back up** **Back up** **pz Back up** **PZ Back up!**
-4. **Disable all your mods** in vallina Garry's mod, enable necessary ones later, use the **default or invisible player model at first**.
-5. Drop everything inside "GarrysMod" folder (The one that G is capital and hl2.exe or gmod.exe is inside), replace all if notified.
-6. Run any bats file that matches your resolution.
-7. Load gm_construct RTX version map in your sandbox map browser. Press Alt + X to configure RTX-Remix.
+5. **Disable all your mods** in vallina Garry's mod, enable necessary ones later, use the **default or invisible player model at first**.
+6. Uninstall Garry's Mod in Steam (Yes, that is why we need to back up)
+7. Delete this folder (Whatever drive):\SteamLibrary\steamapps\common\GarrysMod (For clean installation, make sure all files within that folder is deleted)
+8. Download Garry's Mod again in Steam.
+9. Drop everything inside "GarrysMod" folder (The one that G is capital and hl2.exe or gmod.exe is inside), replace all if notified.
+10. Run any bats file that matches your resolution.
+11. Load gm_construct RTX version map in your sandbox map browser. Press Alt + X to configure RTX-Remix.
 
 ### Performance
 This package was tested in a few devices listed below, all on "gm_construct_rtx" map. DLSS Performance, Framegen enabled to max if possible.
