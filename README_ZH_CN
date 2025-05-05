@@ -1,0 +1,54 @@
+### 一个验证了可以运行的GARRY'S MOD RTX-Remix 客户端，日期为 2025/04/30
+
+引用了以下项目，模组及代码: <br />
+https://github.com/NVIDIAGameWorks/rtx-remix <br />
+https://github.com/NVIDIAGameWorks/dxvk-remix <br />
+https://github.com/NVIDIAGameWorks/bridge-remix <br />
+https://xenthio.github.io <br />
+https://steamcommunity.com/sharedfiles/filedetails/?id=3038853470 <br />
+https://steamcommunity.com/sharedfiles/filedetails/?id=2861839844 <br />
+
+### 前置
+1. NVIDIA RTX 显卡，至少是RTX 3060
+2. Windows 11 24H2 系统
+3. 阅读理解能力与一点耐心
+
+### 注意
+1. 安装后只能和同样安装此模组的用户游玩多人模式（这是我故意设计的）
+2. 理论上不会导致VAC反作弊检测 （已经 -insecure) ，但是我不能给出100%的保证。如果你下载此项目，你就承认了此风险。
+
+### 安装步骤
+1. 从页面右边的 Release 处下载本项目的压缩包。
+2. 将你的电脑的 NVIDIA 驱动程序更新到最新版本。更新完成后重新启动电脑。
+3. 前往 (游戏安装硬盘):\SteamLibrary\steamapps\common\GarrysMod <- (注意，这个"GarrysMod" 文件夹里面还有一个叫做 "garrysmod" 的文件夹，请不要进入叫做 "garrysmod" 的文件夹)
+4. **备份** 你的客户端, 最简单的方法就是把 (游戏安装硬盘):\SteamLibrary\steamapps\common\GarrysMod 复制到别的地方 (这样的话如果你感到晕眩了，你之后还可以玩普通的Garry's Mod ).
+**请一定要备份，备份再备份，重要的事情说三遍**
+5. 在你的游戏中，**禁用掉所有模组并将玩家模型切换到任意原版模型**, 你可以在之后再启用你需要的模组，**推荐使用 Invisible Player Model**.
+6. 在Steam内卸载掉 Garry's Mod (是的，请再确认你的备份没问题)
+7. 删除掉 (游戏安装硬盘):\SteamLibrary\steamapps\common\GarrysMod 和里面的所有内容，不要有残留 (为了一个纯净安装，防止你安装了一些不明模组)
+8. 在Steam内，再次下载 Garry's Mod，请等待下载完全完成（包括创意工坊内容）。如果你觉得慢，可以取消订阅你订阅过的所有模组 **不推荐，请三思！**。
+9. 将此项目的压缩包解压缩，放入 (游戏安装硬盘):\SteamLibrary\steamapps\common\GarrysMod 文件夹 (这个文件夹的名字 G 是大写的，而且里面有一个叫做 hl2.exe 或者 gmod.exe 的文件), 如果提示冲突，请全部覆盖。如果没有提示冲突，证明你安装错位置了。
+10. 使用 (游戏安装硬盘):\SteamLibrary\steamapps\common\GarrysMod 中的三个批处理 (.bat) 文件中的一个 （推荐使用 start_bdnswind_1080p.bat）来启动游戏。1080p的1080是你的荧幕纵向分辨率。
+11. 在游戏中，加载 gm_construct_rtx 这个地图。如果你进入了游戏，说明你成功了，祝贺你！按下 Alt + X 来调整 RTX-Remix 的设置，我已经帮助你调整了一些设置，剩下的就要你自己去摸索了。
+
+### 性能
+此项目已经使用以下设备测试过, 在 "gm_construct_rtx" 这个地图中。 DLSS 设为性能, 帧生成全开如果可能。
+测试分辨率为 3840 x 2160 (4K), RTX-Remix 是默认设置。如果你是1920 x 1080 分辨率，那么把以下的帧数都乘以2（估计）
+
+| 设备  | 帧数 | 帧数 (1% 低) | DLSS 版本 |
+| ------------- | ------------- | ------------- | ------------- |
+| 14900K + 2080 | 无法 | 运行 | 2 |
+| 14900K + 3060Ti | 29 | 24 | 3 |
+| 14900K + 3080Ti | 40 | 29 | 3 |
+| 14900K + 4070Ti Super | 89 | 60 | 3 |
+| 14900K + 4090 | 141 | 94 | 3 |
+| 7800X3D + 4090 | 145 | 110 | 3 |
+| 9800X3D + 5090 | 360 | 292 | 4 |
+
+### Notes
+1. 必须使用 英伟达 NVIDIA RTX 显卡，其他显卡都不行, 推荐使用 RTX 4070 or RTX 3090 以上来达到1080p下的最佳效果. RTX 20 系列显卡大概无法运行， 使用 RTX 40 系显卡来使用 DLSS 帧生成，使用 RTX 50 系显卡来使用 4 倍帧生成。
+2. 游戏是老版本的游戏，这是为了防止你加入当前版本的游戏设计的. 这样可以防止你因为VAC来谴责我
+3. 需要最新版 英伟达 NVIDIA 驱动,
+4. 感谢 Xenthio (上链) 和 NVIDIA 开发, 这个项目的目的保证了 RTX Remix 可以在某一快照运行，这是他们的优秀工作的一个修改版，为他们点赞！
+5. Linux 用不了
+6. 你可以前往 Moddb 来获取更多的 Garry's Mod 的 RTX-remix 地图！
