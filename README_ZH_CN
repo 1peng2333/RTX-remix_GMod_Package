@@ -17,19 +17,21 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2861839844 <br />
 1. 安装后只能和同样安装此模组的用户游玩多人模式（这是我故意设计的）
 2. 理论上不会导致VAC反作弊检测 （已经 -insecure) ，但是我不能给出100%的保证。如果你下载此项目，你就承认了此风险。
 
-### 安装步骤
+### 安装步骤（请勿跳过步骤或修改步骤顺序）
 1. 从页面右边的 Release 处下载本项目的压缩包。
 2. 将你的电脑的 NVIDIA 驱动程序更新到最新版本。更新完成后重新启动电脑。
-3. 前往 (游戏安装硬盘):\SteamLibrary\steamapps\common\GarrysMod <- (注意，这个"GarrysMod" 文件夹里面还有一个叫做 "garrysmod" 的文件夹，请不要进入叫做 "garrysmod" 的文件夹)
+3. 前往 (游戏安装分区):\SteamLibrary\steamapps\common\GarrysMod <- (注意，这个"GarrysMod" 文件夹里面还有一个叫做 "garrysmod" 的文件夹，请不要进入叫做 "garrysmod" 的文件夹)
 4. **备份** 你的客户端, 最简单的方法就是把 (游戏安装硬盘):\SteamLibrary\steamapps\common\GarrysMod 复制到别的地方 (这样的话如果你感到晕眩了，你之后还可以玩普通的Garry's Mod ).
 **请一定要备份，备份再备份，重要的事情说三遍**
 5. 在你的游戏中，**禁用掉所有模组并将玩家模型切换到任意原版模型**, 你可以在之后再启用你需要的模组，**推荐使用 Invisible Player Model**.
 6. 在Steam内卸载掉 Garry's Mod (是的，请再确认你的备份没问题)
-7. 删除掉 (游戏安装硬盘):\SteamLibrary\steamapps\common\GarrysMod 和里面的所有内容，不要有残留 (为了一个纯净安装，防止你安装了一些不明模组)
+7. 删除掉 (游戏安装分区):\SteamLibrary\steamapps\common\GarrysMod 和里面的所有内容，不要有残留 (为了一个纯净安装，防止你安装了一些不明模组)
 8. 在Steam内，再次下载 Garry's Mod，请等待下载完全完成（包括创意工坊内容）。如果你觉得慢，可以取消订阅你订阅过的所有模组 **不推荐，请三思！**。
-9. 将此项目的压缩包解压缩，放入 (游戏安装硬盘):\SteamLibrary\steamapps\common\GarrysMod 文件夹 (这个文件夹的名字 G 是大写的，而且里面有一个叫做 hl2.exe 或者 gmod.exe 的文件), 如果提示冲突，请全部覆盖。如果没有提示冲突，证明你安装错位置了。
-10. 使用 (游戏安装硬盘):\SteamLibrary\steamapps\common\GarrysMod 中的三个批处理 (.bat) 文件中的一个 （推荐使用 start_bdnswind_1080p.bat）来启动游戏。1080p的1080是你的荧幕纵向分辨率。
-11. 在游戏中，加载 gm_construct_rtx 这个地图。如果你进入了游戏，说明你成功了，祝贺你！按下 Alt + X 来调整 RTX-Remix 的设置，我已经帮助你调整了一些设置，剩下的就要你自己去摸索了。
+9. 将此项目的压缩包解压缩，放入 (游戏安装分区):\SteamLibrary\steamapps\common\GarrysMod 文件夹 (这个文件夹的名字 G 是大写的，而且里面有一个叫做 hl2.exe 或者 gmod.exe 的文件), 如果提示冲突，请全部覆盖。如果没有提示冲突，证明你安装错位置了。
+10. 将文件夹(游戏安装分区):\SteamLibrary\steamapps\common\GarrysMod 重命名为 "GarrysMod_RTX"
+11. 将游戏的备份复制回到 (游戏安装分区):\SteamLibrary\steamapps\common, 现在，(游戏安装分区):\SteamLibrary\steamapps\common内应该有 "GarrysMod" 与 "GarrysMod_RTX" 两个文件夹。
+11. 使用 (游戏安装分区):\SteamLibrary\steamapps\common\GarrysMod_RTX 中的三个批处理 (.bat) 文件中的一个 （推荐使用 start_bdnswind_1080p.bat）来启动游戏。1080p的1080是你的荧幕纵向分辨率。
+12. 在游戏中，加载 gm_construct_rtx 这个地图。如果你进入了游戏，说明你成功了，祝贺你！按下 Alt + X 来调整 RTX-Remix 的设置，我已经帮助你调整了一些设置，剩下的就要你自己去摸索了。
 
 ### 性能
 此项目已经使用以下设备测试过, 在 "gm_construct_rtx" 这个地图中。 DLSS 设为性能, 帧生成全开如果可能。
