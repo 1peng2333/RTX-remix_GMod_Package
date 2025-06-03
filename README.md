@@ -10,6 +10,11 @@ https://xenthio.github.io <br />
 https://steamcommunity.com/sharedfiles/filedetails/?id=3038853470 <br />
 https://steamcommunity.com/sharedfiles/filedetails/?id=2861839844 <br />
 
+### Prereqs
+1. NVIDIA RTX graphic card, at least RTX 3060.
+2. Most recent graphic card driver.
+3. Ability to read.
+    
 ### Installion
 1. Download this repository from **Release** on the right of the page.
 2. Update your NVIDIA Driver to the newest version available. Restart your computer after the update is finished.
