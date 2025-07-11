@@ -1,0 +1,15 @@
+#usda 1.0
+(
+    customLayerData = {
+        string lightspeed_game_name = "Garry's Mod"
+        string lightspeed_layer_type = "replacement"
+        string remix_replacement_status = "Release Ready"
+    }
+    metersPerUnit = 0.01
+    subLayers = [
+        @./replacements.usda@
+    ]
+    timeCodesPerSecond = 24
+    upAxis = "Z"
+)
+
