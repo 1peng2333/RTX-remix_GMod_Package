@@ -1,6 +1,6 @@
-### A WORKING RTX REMIX CLIENT FOR GARRY'S MOD DATED 2025/04/30
+### A WORKING RTX REMIX CLIENT FOR GARRY'S MOD DATED 2026/02/15
 
-中文安装帮助：https://github.com/1peng2333/RTX-remix_GMod_Package/blob/main/README_ZH_CN
+**中文安装帮助：https://github.com/1peng2333/RTX-remix_GMod_Package/blob/main/README_ZH_CN**
 
 Related codes are: <br />
 https://github.com/NVIDIAGameWorks/rtx-remix <br />
